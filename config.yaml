@@ -1,0 +1,18 @@
+# Hyperparameters and Configuration Environment
+seed: 42
+image_size: 256
+batch_size: 16
+epochs: 40
+lr: 0.0002
+beta1: 0.5
+beta2: 0.999
+
+# Loss Ablation Weights Configuration
+ablation_mode: "A" # Switched to 'A' for pure L1 Baseline optimization
+lambda_ssim: 0.0
+lambda_l1: 1.0
+
+# Paths matching your working Kaggle environment
+dataset_path: "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2"
+checkpoint_dir: "/kaggle/working/checkpoints_ablation_A"
+output_dir: "/kaggle/working/outputs_ablation_A"
