@@ -158,20 +158,7 @@ While Mode A reaches a lower mathematical pixel-level reconstruction loss ($L_1 
 
 The training vs. validation tracking curve illustrates healthy model convergence to a balanced Nash equilibrium with no spatial or structural generalization gaps:
 
-```text
-  Loss
-   |     
-   |    \   /---\  (Discriminator Equilibrium)
-   |     \ /     \________________________
-   |      X
-   |     / \________________________ (Generator Total Loss Curve)
-   |    /
-   +--------------------------------------- Epochs
-   0     5     10    15    20    25    30
-
-```
-
-*(The generated `loss_curve.png` visualization compiling this training trace is located in your submission ZIP root folder).*
+<img src="loss_curve_ablation_B.png" alt="Loss Curves" width="600"/>
 
 ---
 
@@ -180,6 +167,6 @@ The training vs. validation tracking curve illustrates healthy model convergence
 1. **Isola, P., Zhu, J. Y., Zhou, T., & Efros, A. A. (2017).** *Image-to-Image Translation with Conditional Adversarial Networks.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
 2. **Schmitt, M., Hughes, L. H., & Zhu, X. X. (2018).** *The SEN1-2 Dataset for Deep Learning in SAR-Optical Data Fusion.* mediatum.ub.tum.de, Technical University of Munich.
 3. **Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004).** *Image quality assessment: from error visibility to structural similarity.* IEEE Transactions on Image Processing, 13(4), 600-612.
-4. **Kaggle Dataset Resource Base:** `requiemonk/sentinel12-image-pairs-segregated-by-terrain` configuration portal.
+4. **Dataset: Sentinel1&2 Image Pairs (Kaggle):** `http://kaggle.com/datasets/requiemonk/sentinel12-%20%20image-pairs-segregated-by-terrain`.
 
-```
+
