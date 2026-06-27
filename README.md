@@ -164,9 +164,10 @@ The training vs. validation tracking curve illustrates healthy model convergence
 
 ## 8. Citations & References
 
-1. **Isola, P., Zhu, J. Y., Zhou, T., & Efros, A. A. (2017).** *Image-to-Image Translation with Conditional Adversarial Networks.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
-2. **Schmitt, M., Hughes, L. H., & Zhu, X. X. (2018).** *The SEN1-2 Dataset for Deep Learning in SAR-Optical Data Fusion.* mediatum.ub.tum.de, Technical University of Munich.
-3. **Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004).** *Image quality assessment: from error visibility to structural similarity.* IEEE Transactions on Image Processing, 13(4), 600-612.
-4. **Dataset: Sentinel1&2 Image Pairs (Kaggle):** `http://kaggle.com/datasets/requiemonk/sentinel12-%20%20image-pairs-segregated-by-terrain`.
+1. Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-Image Translation with
+Conditional Adversarial Networks. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 5967-5976. https://doi.org/10.1109/cvpr.2017.632
+2. Shi, H., Cui, Z., Chen, L., He, J., & Yang, J. (2024). A brain-inspired approach for SAR-to-optical image translation based on diffusion models. Frontiers in Neuroscience. 18 https://doi.org/10.3389/fnins.2024.1352841
+3. Yan, X. (2023). The Analysis of Image Inpainting Based on Pix2Pix Model and Mix Loss. Proceedings of the 1st International Conference on Data Analysis and Machine Learning, 446-451. https://doi.org/10.5220/0012804900003885
+4. **Dataset: Sentinel1&2 Image Pairs (Kaggle):** https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain.
 
 
